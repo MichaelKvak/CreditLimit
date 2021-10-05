@@ -5,7 +5,7 @@
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <img
-            src="https://img.money.com/2020/06/creditscore.jpg?quality=85"
+            src="https://www.kindpng.com/picc/m/325-3256817_financial-management-logo-png-transparent-png.png"
             alt="Lightweight UI components for Vue.js based on Bulma"
           />
         </b-navbar-item>
@@ -84,7 +84,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #f8f8f8;
   margin-top: 60px;
 }
 </style>

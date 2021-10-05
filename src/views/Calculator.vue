@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="calc">
     <div v-if="isLoading">loading...</div>
     <div v-if="hasError">error</div>
     <b-field label="Initial loan" type="is-not-success">
@@ -87,3 +87,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.calc {
+  background: url(https://media.istockphoto.com/photos/business-development-to-success-and-growing-growth-concept-pointing-picture-id1145631842?k=20&m=1145631842&s=612x612&w=0&h=fkLeeD7b0fV5KJgDRuDOA3vmTyNB8n5f5gLlmk785OQ=);
+  color: rgb(255, 255, 255);
+  text-shadow: #ffffff 1px 1px 1px;
+}
+</style>

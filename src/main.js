@@ -6,7 +6,10 @@ import store from "../src/store/index";
 import Buefy from "buefy";
 import "buefy/dist/buefy.css";
 
-Vue.use(Buefy);
+Vue.use(Buefy, {
+  defaultIconPack: "fas",
+  defaultContainerElement: "#content",
+});
 
 Vue.config.productionTip = false;
 axios.interceptors.request.use(function(config) {

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="signup">
     <h2>Sign up</h2>
     <form @submit.prevent="submit">
       <div>
@@ -71,3 +71,9 @@ export default {
   },
 };
 </script>
+<style>
+.signup {
+  background: url(https://us.123rf.com/450wm/jirsak/jirsak1707/jirsak170700007/82255755-cybersecurity-and-information-technology-security-services-concept-login-or-sign-in-internet-concept.jpg?ver=6);
+  color: rgb(185, 180, 159);
+}
+</style>

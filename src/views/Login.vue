@@ -71,9 +71,7 @@ export default {
 
 <style scoped>
 .login {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Money-2180330_1920.jpg/1200px-Money-2180330_1920.jpg);
-  background-size: 100%;
-  text-shadow: #000000 1px 1px 5px;
-  color: #f7f7f7;
+  background: url(https://us.123rf.com/450wm/jirsak/jirsak1707/jirsak170700007/82255755-cybersecurity-and-information-technology-security-services-concept-login-or-sign-in-internet-concept.jpg?ver=6);
+  color: cornsilk;
 }
 </style>

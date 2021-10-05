@@ -2,33 +2,39 @@
   <div class="create">
     <div v-if="isLoading">loading...</div>
     <div v-if="hasError">error</div>
-    <div>
-      <label>
+    <div class="CreateList">
+      <label class="field">
         Bank name
         <input type="text" v-model="bankName" />
       </label>
       <br />
-      <label>
+      <label class="field">
         Interest rate
         <input type="number" v-model.number="bankRate" />
       </label>
       <br />
-      <label>
+      <label class="field">
         Maximum loan
         <input type="number" v-model.number="bankCredit" />
       </label>
       <br />
-      <label>
+      <label class="field">
         Minimum down payment
         <input type="number" v-model.number="bankPayment" />
       </label>
       <br />
-      <label>
+      <label class="field">
         Loan term
         <input type="number" v-model.number="bankTerm" />
       </label>
       <div>
-        <button @click="onSave" :disabled="!isDataValid">{{ saveBtn }}</button>
+        <b-button
+          type="is-success is-light"
+          @click="onSave"
+          rounded
+          :disabled="!isDataValid"
+          >{{ saveBtn }}</b-button
+        >
       </div>
       <div v-if="errorMessage">{{ errorMessage }}</div>
     </div>
@@ -112,6 +118,14 @@ export default {
 </script>
 <style scoped>
 .create {
- 
+  background: url(https://media.istockphoto.com/photos/business-development-to-success-and-growing-growth-concept-pointing-picture-id1145631842?k=20&m=1145631842&s=612x612&w=0&h=fkLeeD7b0fV5KJgDRuDOA3vmTyNB8n5f5gLlmk785OQ=);
+  color: cornsilk;
+  text-shadow: #190af1 1px 1px 1px;
+}
+.CreateList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 </style>
